@@ -1,0 +1,13 @@
+{
+  "name": "grunt-netsuite-uploader",
+  "version": "0.1.0",
+  "description": "Upload files to netsuite",
+  "author": {
+    "name": "Brendon Parker"
+  },
+  "repository": "icsfl/grunt-netsuite-uploader",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "readline-sync": "^0.8.0"
+  }
+}
