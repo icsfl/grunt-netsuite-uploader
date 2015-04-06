@@ -1,6 +1,8 @@
 # grunt-netsuite-uploader
 Grunt task to upload local scripts into netsuite
 
+The first time you run this task, it will prompt you for your netsuite email address and password. These credentials will be stored locally and re-used for future launches. If you change your password, you'll need to delete the `netsuite_creds.js` file so the upload task will re-ask for your credentials.
+
 Sample packages.config:
 ```json
 {
