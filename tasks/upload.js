@@ -1,7 +1,7 @@
 module.exports = function(grunt) {
-	var restlet = require('./restlet'),
-		creds = require('./creds'),
-		SuiteTalk = require('./suitetalk'),
+	var netsuiteUploader = require('netsuite-uploader-util');
+	var creds = netsuiteUploader.Credentials,
+		SuiteTalk = netsuiteUploader.SuiteTalk,
 		path = require('path');
 
 	grunt.event.on('watch', function(action, filepath) {
