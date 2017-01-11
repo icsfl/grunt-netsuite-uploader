@@ -15,6 +15,7 @@ module.exports = function(grunt) {
 			isflat = this.data.isflat;
 		
 		var client = new SuiteTalk();
+		client.hostname = this.data.hostname;
 		client.init(creds.email, creds.password, this.data.account, this.data.role).then(function(){
 			var pathparts = filepath.split(/\\|\//);
 			
