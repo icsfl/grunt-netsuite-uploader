@@ -34,7 +34,11 @@ module.exports = function(grunt) {
 				filecabinetpath = [filecabinetpath, filename].join('/');
 			}
 
-			client.upload(filepath, filecabinetpath);
+			client.upload(filepath, filecabinetpath).then(() => {
+                console.log('  Uploaded File: ' + suiteScriptPath);
+            }, err => {
+                console.log('  Failed to Upload File: ' + err);
+            });
 		});
 	});
 };

@@ -1,6 +1,6 @@
 {
   "name": "grunt-netsuite-uploader",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Upload files to netsuite",
   "author": {
     "name": "Brendon Parker"
@@ -10,6 +10,6 @@
     "grunt": "^0.4.5"
   },
   "dependencies": {
-    "netsuite-uploader-util": "^1.0.0"
+    "netsuite-uploader-util": "^1.1.2"
   }
 }
