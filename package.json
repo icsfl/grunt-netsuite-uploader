@@ -10,6 +10,6 @@
     "grunt": "^0.4.5"
   },
   "dependencies": {
-    "netsuite-uploader-util": "git://github.com/icsfl/netsuite-uploader-util"
+    "netsuite-uploader-util": "^1.0.0"
   }
 }
