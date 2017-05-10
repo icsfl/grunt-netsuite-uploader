@@ -13,7 +13,7 @@ Sample packages.config:
     "devDependencies": {
         "grunt": "^0.4.5",
         "grunt-contrib-watch": "^0.6.1",
-        "grunt-netsuite-uploader": "git://github.com/icsfl/grunt-netsuite-uploader"
+        "grunt-netsuite-uploader": "^0.3.0"
     }
 }
 ```
